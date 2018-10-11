@@ -1,5 +1,6 @@
 ---
 lang: zh-CN
+pageClass: list_index
 meta:
   - name: description
     content: 网站全部文章列表页面
@@ -11,8 +12,69 @@ meta:
 
 ***
 
-- [Shell 脚本编写教程](/page/list/sh.md)
-- [Markdown 表情代码](/page/list/emoji.md)
-- [VuePress 笔记](/page/vuepress/)
-- [关于](/page/about/)
-- [首页](/)
+
+
+
+<style lang="less">
+    .list_index{
+        .cont{
+            ol{
+                list-style: none;
+                padding-left: 0;
+            }
+            span{
+                margin-right: 6px;
+            }
+        }
+    }
+</style>
+
+<template>
+    <div class="cont">
+        <ol>
+            <li v-for="(item, index) in datas">
+                <span>{{index + 1}}.</span><a href="javascript:;" @click="go(item.url)">{{item.name}}</a>
+            </li>
+        </ol>
+    </div>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                datas: [
+                    {
+                        name: 'Shell 脚本编写教程',
+                        url: '/page/list/sh.html',
+                    },
+                    {
+                        name: 'Markdown 表情代码',
+                        url: '/page/list/emoji.html',
+                    },
+                    {
+                        name: 'VuePress 笔记',
+                        url: '/page/vuepress/',
+                    },
+                    {
+                        name: '关于',
+                        url: '/page/about/',
+                    },
+                    {
+                        name: '首页',
+                        url: '/',
+                    },
+                ]
+            }
+        },
+        mounted() {
+
+        },
+        methods: {
+            go(url) {
+                this.$router.push(url)
+            }
+        }
+    }
+</script>
+

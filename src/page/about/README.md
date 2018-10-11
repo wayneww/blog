@@ -54,6 +54,6 @@ meta:
 
 <span>+</span> SegmentFault：[@前端一锅煮](https://segmentfault.com/u/daqianduan)
 
-<span>+</span> 代码库：[码云](https://gitee.com/cjm0)
+<span>+</span> 代码库：[码云](https://gitee.com/cjm0) [GitHub](https://github.com/cjm0)
 
 <span>+</span> 微信公众号 && QQ群：前端一锅煮
