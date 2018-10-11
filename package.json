@@ -1,7 +1,7 @@
 {
   "name": "blog.bigqianduan.top",
   "version": "1.0.0",
-  "description": "a blog use vuepress",
+  "description": "A blog of 前端一锅煮 use VuePress",
   "main": "index.js",
   "author": "chenjianmin <129300400@qq.com>",
   "license": "MIT",

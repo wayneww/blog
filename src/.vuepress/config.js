@@ -37,14 +37,14 @@ module.exports = {
     // 主题配置
     // theme: 'undefined',
     themeConfig: { 
-        repo: 'https://gitee.com/cjm0/vuepress',
+        repo: 'https://github.com/cjm0/blog',
         editLinks: true,
-        repoLabel: '码云',
+        repoLabel: 'GitHub',
         docsDir: 'src', // 假如文档不是放在仓库的根目录下
         locales: {
             '/': {
                 docsBranch: 'master', // 假如文档放在一个特定的分支下
-                editLinkText: '在码云上编辑此页',
+                editLinkText: '在 GitHub 上编辑此页',
                 lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
                 nav: [ // 顶部导航栏
                     {
