@@ -50,7 +50,7 @@ meta:
 
 <span>+</span> 知乎：[@前端一锅煮](https://www.zhihu.com/people/qian-duan-yiguo-zhu/activities)
 
-<span>+</span> 简书：[@前端一锅煮](https://www.jianshu.com/u/1920de65b6bb)
+<span>+</span> 简书：[@前端一锅煮0](https://www.jianshu.com/u/1920de65b6bb)
 
 <span>+</span> SegmentFault：[@前端一锅煮](https://segmentfault.com/u/daqianduan)
 

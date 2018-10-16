@@ -45,6 +45,10 @@ meta:
             return {
                 datas: [
                     {
+                        name: 'css 布局：两边固定中间自适应',
+                        url: '/page/list/css_layout_two.html',
+                    },
+                    {
                         name: 'Shell 脚本编写教程',
                         url: '/page/list/sh.html',
                     },

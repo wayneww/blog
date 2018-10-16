@@ -52,7 +52,7 @@ module.exports = {
                         link: '/'
                     },
                     {
-                        text: '文章', 
+                        text: '分类', 
                         items: [
                             {text: 'Hot', link: '/page/hot/'},
                             {text: '教程', link: '/page/a/'},
@@ -62,7 +62,7 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '历史文章', 
+                        text: '全部文章', 
                         link: '/page/list/'
                     },
                     {
@@ -80,7 +80,7 @@ module.exports = {
                     '/page/a/':  sidebarA('教程'),
                     '/page/b/':  sidebarB('资源'),
                     '/page/c/':  sidebarC('疑难解析'),
-                    '/page/d/':  sidebarC('趣闻杂记')
+                    '/page/d/':  sidebarD('趣闻杂记')
                 }
             }
         }
@@ -109,6 +109,7 @@ function sidebarHot (title) { // 推荐
             collapsable: false, // 让一个组永远都是展开状态
             children: [
                 '',
+                'css_layout_two',
                 'emoji',
                 'sh'
            ]
@@ -149,6 +150,7 @@ function sidebarC (title) { // 疑难解析
             collapsable: false, // 让一个组永远都是展开状态
             children: [
                 '',
+                'css_layout_two',
            ]
         }
     ]
