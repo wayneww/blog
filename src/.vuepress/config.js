@@ -31,7 +31,7 @@ module.exports = {
     host: getIp(),
     port: 3009,
     dest: '.vuepress/dist', // 指定 vuepress build 的输出目录
-    ga: 'undefined', // 提供一个 Google Analytics ID 来使 GA 生效
+    ga: 'UA-109714208-2', // 提供一个 Google Analytics ID 来使 GA 生效
     serviceWorker: false, // pwa
     
     // 主题配置

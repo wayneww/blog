@@ -13,7 +13,7 @@ info="fix"
 fi
 
 # 先打包
-yarn build
+npm run build
 
 echo 'build success...'
 
@@ -23,4 +23,12 @@ git commit -am "$info"
 git push
 
 echo 'git push success...'
+
+
+
+
+
+
+
+
   
