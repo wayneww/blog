@@ -45,6 +45,10 @@ meta:
             return {
                 datas: [
                     {
+                        name: '经典资源收藏',
+                        url: '/page/list/source_link.html',
+                    },
+                    {
                         name: 'css 布局：两边固定中间自适应',
                         url: '/page/list/css_layout_two.html',
                     },

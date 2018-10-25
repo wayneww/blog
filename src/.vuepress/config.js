@@ -109,9 +109,8 @@ function sidebarHot (title) { // 推荐
             collapsable: false, // 让一个组永远都是展开状态
             children: [
                 '',
-                'css_layout_two',
+                'source_link',
                 'emoji',
-                'sh'
            ]
         }
     ]
@@ -137,6 +136,7 @@ function sidebarB (title) { // 资源
             collapsable: false, // 让一个组永远都是展开状态
             children: [
                 '',
+                'source_link',
                 'emoji',
            ]
         }
