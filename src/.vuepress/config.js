@@ -123,7 +123,7 @@ function sidebarA (title) { // 教程
             collapsable: false, // 让一个组永远都是展开状态
             children: [
                 '',
-                'sh'
+                'sh',
            ]
         }
     ]
@@ -137,6 +137,7 @@ function sidebarB (title) { // 资源
             children: [
                 '',
                 'source_link',
+                'vue_ui_contrast',
                 'emoji',
            ]
         }

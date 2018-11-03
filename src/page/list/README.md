@@ -49,6 +49,10 @@ meta:
                         url: '/page/list/source_link.html',
                     },
                     {
+                        name: 'Vue ui 大法哪家强？',
+                        url: '/page/list/vue_ui_contrast.html',
+                    },
+                    {
                         name: 'css 布局：两边固定中间自适应',
                         url: '/page/list/css_layout_two.html',
                     },
