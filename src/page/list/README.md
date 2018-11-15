@@ -13,8 +13,6 @@ meta:
 ***
 
 
-
-
 <style lang="less">
     .list_index{
         .cont{
@@ -22,8 +20,13 @@ meta:
                 list-style: none;
                 padding-left: 0;
             }
-            span{
-                margin-right: 6px;
+            .list_num{
+                margin-right: 5px;
+            }
+            .date{
+                margin-left: 10px;
+                color: #666;
+                font-size: 14px;
             }
         }
     }
@@ -33,7 +36,9 @@ meta:
     <div class="cont">
         <ol>
             <li v-for="(item, index) in datas">
-                <span>{{index + 1}}.</span><a href="javascript:;" @click="go(item.url)">{{item.name}}</a>
+                <span class="list_num">{{index + 1}}.</span>
+                <a href="javascript:;" @click="go(item.url)">{{item.name}}</a>
+                <span class="date">{{item.date}}</span>
             </li>
         </ol>
     </div>
@@ -47,34 +52,47 @@ meta:
                     {
                         name: '经典资源收藏',
                         url: '/page/list/source_link.html',
+                        date: '2018-11-3',
+                    },
+                    {
+                        name: '前端项目模板',
+                        url: '/page/list/project_template.html',
+                        date: '2018-11-15',
                     },
                     {
                         name: 'Vue ui 大法哪家强？',
                         url: '/page/list/vue_ui_contrast.html',
+                        date: '2018-11-3',
                     },
                     {
                         name: 'css 布局：两边固定中间自适应',
                         url: '/page/list/css_layout_two.html',
+                        date: '2018-10-16',
                     },
                     {
                         name: 'Shell 脚本编写教程',
                         url: '/page/list/sh.html',
+                        date: '2018-10-11',
                     },
                     {
                         name: 'Markdown 表情代码',
                         url: '/page/list/emoji.html',
+                        date: '2018-10-11',
                     },
                     {
                         name: 'VuePress 笔记',
                         url: '/page/vuepress/',
+                        date: '2018-10-11',
                     },
                     {
                         name: '关于',
                         url: '/page/about/',
+                        date: '2018-10-11',
                     },
                     {
                         name: '首页',
                         url: '/',
+                        date: '2018-10-11',
                     },
                 ]
             }

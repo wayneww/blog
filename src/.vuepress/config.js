@@ -91,7 +91,7 @@ function genSidebarConfig (title) {
     return [
         {
             title,
-            collapsable: false, // 让一个组永远都是展开状态
+            collapsable: false, 
             children: [
                 '',
                 'api',
@@ -102,11 +102,11 @@ function genSidebarConfig (title) {
     ]
 }
 
-function sidebarHot (title) { // 推荐
+function sidebarHot (title) { // 推荐 hot
     return [
         {
             title,
-            collapsable: false, // 让一个组永远都是展开状态
+            collapsable: false, 
             children: [
                 '',
                 'source_link',
@@ -116,54 +116,54 @@ function sidebarHot (title) { // 推荐
     ]
 }
 
-function sidebarA (title) { // 教程
+function sidebarA (title) { // 教程 a
     return [
         {
             title,
-            collapsable: false, // 让一个组永远都是展开状态
+            collapsable: false, 
             children: [
                 '',
-                'sh',
+                'sh', // Shell 脚本编写教程
            ]
         }
     ]
 }
 
-function sidebarB (title) { // 资源
+function sidebarB (title) { // 资源 b
     return [
         {
             title,
-            collapsable: false, // 让一个组永远都是展开状态
+            collapsable: false, 
             children: [
                 '',
-                'source_link',
-                'vue_ui_contrast',
-                'emoji',
+                'source_link', // 经典资源收藏
+                'project_template', // 前端项目模板
+                'vue_ui_contrast', // Vue ui 大法哪家强？
            ]
         }
     ]
 }
 
-function sidebarC (title) { // 疑难解析
+function sidebarC (title) { // 疑难解析 c
     return [
         {
             title,
-            collapsable: false, // 让一个组永远都是展开状态
+            collapsable: false, 
             children: [
                 '',
-                'css_layout_two',
+                'css_layout_two', // css 布局：两边固定中间自适应
            ]
         }
     ]
 }
 
-function sidebarD (title) { // 趣闻杂记
+function sidebarD (title) { // 趣闻杂记 d
     return [
         {
             title,
-            collapsable: false, // 让一个组永远都是展开状态
+            collapsable: false, 
             children: [
-                '',
+                'emoji', // Markdown 表情代码
            ]
         }
     ]
