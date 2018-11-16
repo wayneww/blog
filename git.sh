@@ -22,7 +22,7 @@ git add -A
 git commit -am "$info"
 git push
 
-echo 'git push success...'
+echo 'blog git push success...'
 
 
 

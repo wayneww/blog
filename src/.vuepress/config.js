@@ -109,8 +109,9 @@ function sidebarHot (title) { // 推荐 hot
             collapsable: false, 
             children: [
                 '',
-                'source_link',
-                'emoji',
+                'vue_reload', // vue 无痕刷新
+                'source_link', // 经典资源收藏
+                'emoji', // Markdown 表情代码
            ]
         }
     ]
@@ -151,6 +152,7 @@ function sidebarC (title) { // 疑难解析 c
             collapsable: false, 
             children: [
                 '',
+                'vue_reload', // vue 无痕刷新
                 'css_layout_two', // css 布局：两边固定中间自适应
            ]
         }

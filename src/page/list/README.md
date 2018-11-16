@@ -50,9 +50,9 @@ meta:
             return {
                 datas: [
                     {
-                        name: '经典资源收藏',
-                        url: '/page/list/source_link.html',
-                        date: '2018-11-3',
+                        name: 'vue 无痕刷新',
+                        url: '/page/list/vue_reload.html',
+                        date: '2018-11-16',
                     },
                     {
                         name: '前端项目模板',
@@ -62,6 +62,11 @@ meta:
                     {
                         name: 'Vue ui 大法哪家强？',
                         url: '/page/list/vue_ui_contrast.html',
+                        date: '2018-11-3',
+                    },
+                    {
+                        name: '经典资源收藏',
+                        url: '/page/list/source_link.html',
                         date: '2018-11-3',
                     },
                     {
