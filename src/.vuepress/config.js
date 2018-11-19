@@ -166,6 +166,7 @@ function sidebarD (title) { // 趣闻杂记 d
             collapsable: false, 
             children: [
                 'emoji', // Markdown 表情代码
+                'money_rate', // 网贷理财平台收益概览
            ]
         }
     ]

@@ -50,6 +50,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: '网贷理财平台收益概览',
+                        url: '/page/list/money_rate.html',
+                        date: '2018-11-19',
+                    },
+                    {
                         name: 'vue 无痕刷新',
                         url: '/page/list/vue_reload.html',
                         date: '2018-11-16',
