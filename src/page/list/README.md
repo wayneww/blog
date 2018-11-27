@@ -50,6 +50,16 @@ meta:
             return {
                 datas: [
                     {
+                        name: '经典资源收藏',
+                        url: '/page/list/source_link.html',
+                        date: '',
+                    },
+                    {
+                        name: 'webpack4 一点通',
+                        url: '/page/list/webpack4.html',
+                        date: '2018-11-21',
+                    },
+                    {
                         name: '网贷理财平台收益概览',
                         url: '/page/list/money_rate.html',
                         date: '2018-11-19',
@@ -67,11 +77,6 @@ meta:
                     {
                         name: 'Vue ui 大法哪家强？',
                         url: '/page/list/vue_ui_contrast.html',
-                        date: '2018-11-3',
-                    },
-                    {
-                        name: '经典资源收藏',
-                        url: '/page/list/source_link.html',
                         date: '2018-11-3',
                     },
                     {

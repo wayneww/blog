@@ -48,6 +48,20 @@ css2.1 规范大全，中文版底层解释
 [vue 资源精选](http://vue.awesometiny.com)
 
 
+## sublime 最全指南
+
+sublime 配置文档，内容比较详细，可作为参考
+
+[sublime 配置文档](https://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text)
+
+
+## JavaScript 多端应用原理
+
+JavaScript 多端应用原理，文章比较经典
+
+[JavaScript 多端应用原理](https://mp.weixin.qq.com/s/6OGNTGEn3ER2w_4xgFuUwQ)
+
+
 ## 网页设计的常见错误
 
 设计原则：

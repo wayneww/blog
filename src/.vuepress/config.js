@@ -110,7 +110,6 @@ function sidebarHot (title) { // 推荐 hot
             children: [
                 '',
                 'vue_reload', // vue 无痕刷新
-                'source_link', // 经典资源收藏
                 'emoji', // Markdown 表情代码
            ]
         }
@@ -137,7 +136,6 @@ function sidebarB (title) { // 资源 b
             collapsable: false, 
             children: [
                 '',
-                'source_link', // 经典资源收藏
                 'project_template', // 前端项目模板
                 'vue_ui_contrast', // Vue ui 大法哪家强？
            ]
