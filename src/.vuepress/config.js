@@ -109,6 +109,7 @@ function sidebarHot (title) { // 推荐 hot
             collapsable: false, 
             children: [
                 '',
+                'webpack4', // webpack4 教程
                 'vue_reload', // vue 无痕刷新
                 'emoji', // Markdown 表情代码
            ]
@@ -123,6 +124,7 @@ function sidebarA (title) { // 教程 a
             collapsable: false, 
             children: [
                 '',
+                'webpack4', // webpack4 教程
                 'sh', // Shell 脚本编写教程
            ]
         }
