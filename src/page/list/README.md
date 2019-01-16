@@ -50,6 +50,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: 'npm cnpm npx nvm 傻傻分不清',
+                        url: '/page/list/npm.html',
+                        date: '',
+                    },
+                    {
                         name: '经典资源收藏',
                         url: '/page/list/source_link.html',
                         date: '',

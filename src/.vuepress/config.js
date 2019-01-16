@@ -124,6 +124,7 @@ function sidebarA (title) { // 教程 a
             collapsable: false, 
             children: [
                 '',
+                'npm', // npm cnpm npx nvm 教程
                 'webpack4', // webpack4 教程
                 'sh', // Shell 脚本编写教程
            ]
