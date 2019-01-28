@@ -50,6 +50,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: '前端修炼之路',
+                        url: '/page/list/fe_up.html',
+                        date: '',
+                    },
+                    {
                         name: 'npm cnpm npx nvm 傻傻分不清',
                         url: '/page/list/npm.html',
                         date: '',
