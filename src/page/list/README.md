@@ -50,6 +50,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: 'App 二三记~',
+                        url: '/page/list/app.html',
+                        date: '',
+                    },
+                    {
                         name: '前端修炼之路',
                         url: '/page/list/fe_up.html',
                         date: '',
