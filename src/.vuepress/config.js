@@ -52,16 +52,6 @@ module.exports = {
                         link: '/'
                     },
                     {
-                        text: '分类', 
-                        items: [
-                            {text: 'Hot', link: '/page/hot/'},
-                            {text: '教程', link: '/page/a/'},
-                            {text: '资源', link: '/page/b/'},
-                            {text: '疑难解析', link: '/page/c/'},
-                            {text: '趣闻杂记', link: '/page/d/'},
-                        ]
-                    },
-                    {
                         text: '全部文章', 
                         link: '/page/list/'
                     },
@@ -70,17 +60,12 @@ module.exports = {
                         link: '/page/vuepress/'
                     },
                     {
-                        text: '关于', 
+                        text: '关于我', 
                         link: '/page/about/'
                     },
                 ],
                 sidebar: { // 文档侧边栏 跳转到不同页面
                     '/page/vuepress/':  genSidebarConfig('VuePress笔记'),
-                    '/page/hot/':  sidebarHot('Hot'),
-                    '/page/a/':  sidebarA('教程'),
-                    '/page/b/':  sidebarB('资源'),
-                    '/page/c/':  sidebarC('疑难解析'),
-                    '/page/d/':  sidebarD('趣闻杂记')
                 }
             }
         }
@@ -102,77 +87,5 @@ function genSidebarConfig (title) {
     ]
 }
 
-function sidebarHot (title) { // 推荐 hot
-    return [
-        {
-            title,
-            collapsable: false, 
-            children: [
-                '',
-                'webpack4', // webpack4 教程
-                'vue_reload', // vue 无痕刷新
-                'emoji', // Markdown 表情代码
-           ]
-        }
-    ]
-}
-
-function sidebarA (title) { // 教程 a
-    return [
-        {
-            title,
-            collapsable: false, 
-            children: [
-                '',
-                'npm', // npm cnpm npx nvm 教程
-                'webpack4', // webpack4 教程
-                'sh', // Shell 脚本编写教程
-           ]
-        }
-    ]
-}
-
-function sidebarB (title) { // 资源 b
-    return [
-        {
-            title,
-            collapsable: false, 
-            children: [
-                '',
-                'project_template', // 前端项目模板
-                'vue_ui_contrast', // Vue ui 大法哪家强？
-           ]
-        }
-    ]
-}
-
-function sidebarC (title) { // 疑难解析 c
-    return [
-        {
-            title,
-            collapsable: false, 
-            children: [
-                '',
-                'vue_reload', // vue 无痕刷新
-                'css_layout_two', // css 布局：两边固定中间自适应
-           ]
-        }
-    ]
-}
-
-function sidebarD (title) { // 趣闻杂记 d
-    return [
-        {
-            title,
-            collapsable: false, 
-            children: [
-                'app', // App 二三记~
-                'fe_up', // 前端修炼之路
-                'emoji', // Markdown 表情代码
-                'money_rate', // 网贷理财平台收益概览
-           ]
-        }
-    ]
-}
 
 

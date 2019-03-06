@@ -9,7 +9,7 @@ meta:
     content: markdown,Vuepress,Vue,前端一锅煮
 ---
 
-# Blog
+# About 
 
 ## 关于网站
 
@@ -41,7 +41,7 @@ meta:
 
 - `Node && React` 升级中
 
-- 关注 `pwa`，整完了学 `python` 去~
+- 写作爱好者~
 
 
 ## 联系我

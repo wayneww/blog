@@ -50,24 +50,29 @@ meta:
             return {
                 datas: [
                     {
+                        name: 'JS 加法知多少？',
+                        url: '/page/list/add.html',
+                        date: '2019-03-06',
+                    },
+                    {
                         name: 'App 二三记~',
                         url: '/page/list/app.html',
-                        date: '',
+                        date: '2019-02-06',
                     },
                     {
                         name: '前端修炼之路',
                         url: '/page/list/fe_up.html',
-                        date: '',
+                        date: '2019-01-28',
                     },
                     {
                         name: 'npm cnpm npx nvm 傻傻分不清',
                         url: '/page/list/npm.html',
-                        date: '',
+                        date: '2019-01-16',
                     },
                     {
                         name: '经典资源收藏',
                         url: '/page/list/source_link.html',
-                        date: '',
+                        date: '2019-11-27',
                     },
                     {
                         name: 'webpack4 一点通',
@@ -108,22 +113,7 @@ meta:
                         name: 'Markdown 表情代码',
                         url: '/page/list/emoji.html',
                         date: '2018-10-11',
-                    },
-                    {
-                        name: 'VuePress 笔记',
-                        url: '/page/vuepress/',
-                        date: '2018-10-11',
-                    },
-                    {
-                        name: '关于',
-                        url: '/page/about/',
-                        date: '2018-10-11',
-                    },
-                    {
-                        name: '首页',
-                        url: '/',
-                        date: '2018-10-11',
-                    },
+                    }
                 ]
             }
         },
