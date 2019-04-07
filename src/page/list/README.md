@@ -50,6 +50,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: '听说你在找工作',
+                        url: '/page/list/need_work.html',
+                        date: '2019-04-07',
+                    },
+                    {
                         name: 'JS 加法知多少？',
                         url: '/page/list/add.html',
                         date: '2019-03-06',
