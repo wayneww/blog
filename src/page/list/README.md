@@ -82,7 +82,7 @@ meta:
                     {
                         name: '经典资源收藏',
                         url: '/page/list/source_link.html',
-                        date: '2019-11-27',
+                        date: '2018-11-27',
                     },
                     {
                         name: 'webpack4 一点通',

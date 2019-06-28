@@ -147,53 +147,15 @@ MutationObserver        ✅   ❌
 Promise.then            ✅   ✅
 ```
 
-## 斐波那契数列
-```js 
-// 性能最好
-function add(n) { 
-    let res1 = 1;
-    let res2 = 1;
-    let sum = res2 
-    for (let i = 2; i < n; i++) {
-        sum = res1 + res2
-        res1 = res2 
-        res2 = sum 
-    }
-    return sum
-}
-
-// 把算过的存起来
-var cache = []
-function add(n) { 
-    if (n <= 2) {
-        cache[n] = 1
-        return 1
-    }
-    if (cache[n] !== undefined) {
-        return cache[n]
-    }
-    cache.push(add(n-1) + add(n-2))
-    return cache[n]
-}
-
-// 最简单，但是性能不行
-function add() {
-    if (n <= 2) {
-        return 1
-    }
-    return add(n-1) + add(n-2)
-}
-```
-
 ## 严格模式
 ```js
 1. 变量必须显示声明
 2. 禁用 with
-3. 进制删除变量 // delete x => 语法错误 
+3. 禁止删除变量 // delete x => 语法错误 
 4. 禁用 fn.caller fn.arguments // 报错 
 5. 对象不能有重名的属性
 6. 函数不能有重名的参数
-7. 进制八进制表示法 02 
+7. 禁止八进制表示法 // 02 
 ```
 
 ## Flex 
@@ -283,9 +245,43 @@ function maop(arr) { // 冒泡排序
 }
 ```
 
+## 斐波那契数列
+```js 
+// 性能最好
+function add(n) { 
+    let res1 = 1;
+    let res2 = 1;
+    let sum = res2 
+    for (let i = 2; i < n; i++) {
+        sum = res1 + res2
+        res1 = res2 
+        res2 = sum 
+    }
+    return sum
+}
 
+// 把算过的存起来
+var cache = []
+function add(n) { 
+    if (n <= 2) {
+        cache[n] = 1
+        return 1
+    }
+    if (cache[n] !== undefined) {
+        return cache[n]
+    }
+    cache.push(add(n-1) + add(n-2))
+    return cache[n]
+}
 
-
+// 最简单，但是性能不行
+function add() {
+    if (n <= 2) {
+        return 1
+    }
+    return add(n-1) + add(n-2)
+}
+```
 
 
 
