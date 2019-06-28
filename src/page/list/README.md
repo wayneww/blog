@@ -50,6 +50,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: 'js 拾遗',
+                        url: '/page/list/base_summary.html',
+                        date: '2019-06-28',
+                    },
+                    {
                         name: '听说你在找工作',
                         url: '/page/list/need_work.html',
                         date: '2019-04-07',
