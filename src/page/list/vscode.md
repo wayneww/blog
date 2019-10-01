@@ -28,16 +28,16 @@ meta:
 `command k v` markdown 打开侧边预览  
 `command shift k` 删除当前行    
 `command /` 单行注释   
-`command option m` JSON 解压缩
-`option m` JSON 压缩
+`command option m` JSON 解压缩    
 `command + K + J` 新建一个及试运行的 js 文件
 
 `option shift a` 多行注释   
-`option shift ↑ ↓` 复制当前行    
 `option shift f` 格式化代码   
+`option shift ↑ ↓` 复制当前行       
+`option m` JSON 压缩  
 
 `control ~` 终端显隐  
-`control command space` 唤出表情、常用字符 
+`control command space` 唤出表情、常用字符  
 `control option n` 运行代码
 
 ## 代码片段  
