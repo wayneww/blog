@@ -15,15 +15,14 @@ fi
 # 先打包
 npm run build
 
-echo 'build success...'
+echo -e '\033[32m build success... \033[0m'
 
 # 执行 git 命令 -am 后面用双引号
 git add -A
 git commit -am "$info"
 git push
 
-echo 'blog git push success...'
-
+echo -e '\033[32m blog git push success... \033[0m'
 
 
 
