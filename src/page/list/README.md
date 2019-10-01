@@ -50,6 +50,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: 'vscode 使用指南',
+                        url: '/page/list/vscode.html',
+                        date: '2019-10-01',
+                    },
+                    {
                         name: 'js 拾遗',
                         url: '/page/list/base_summary.html',
                         date: '2019-06-28',
