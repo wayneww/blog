@@ -50,6 +50,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: '前端标准规范-v1.0',
+                        url: '/page/list/fe.html',
+                        date: '2019-11-19',
+                    },
+                    {
                         name: 'vscode 使用指南',
                         url: '/page/list/vscode.html',
                         date: '2019-10-01',

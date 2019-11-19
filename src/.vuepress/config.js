@@ -28,6 +28,7 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
+    open: true,
     host: getIp(),
     port: 3009,
     dest: '.vuepress/dist', // 指定 vuepress build 的输出目录
