@@ -13,7 +13,7 @@ info="fix"
 fi
 
 # 先打包
-# npm run build
+npm run build
 
 echo -e '\033[32m build success... \033[0m'
 

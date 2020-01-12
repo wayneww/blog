@@ -6,8 +6,8 @@
   "author": "chenjianmin <129300400@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "less": "^3.8.1",
