@@ -24,7 +24,10 @@ pipeline {
     }
     stage('打包并推送到 github pages') {
       steps {
-        git --version
+        script {
+            result = sh (script: "git --version", returnStatus: true)
+            echo "result: ${result}"
+        }
         sh 'chmod +x *.sh'
         sh './github.sh'
       }
