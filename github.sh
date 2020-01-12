@@ -1,7 +1,9 @@
-#!/bin/bash -ilex
+#!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
 set -e
+
+git --version
 
 # 生成静态文件
 # 先改配置文件的 base，然后执行命令提交到 github静态资源站点
