@@ -7,6 +7,8 @@ set -e
 # 先改配置文件的 base，然后执行命令提交到 github静态资源站点
 npm run build -- pages
 
+echo 'success'
+
 # 进入生成的文件夹
 cd .vuepress/dist
 
@@ -24,5 +26,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 git push -f git@github.com:cjm0/blog-github.git master:gh-pages
 
+# 返回上一次的工作目录
 cd -
 
