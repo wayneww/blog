@@ -18,19 +18,18 @@ pipeline {
     }
     stage('配置环境') {
       steps {
-        sh 'yarn --version'
         sh "yarn config set registry 'https://registry.npm.taobao.org'"
         sh 'yarn install'
       }
     }
-    stage('打包给生产使用') {
-      steps {
-        sh 'yarn build'
-      }
-    }
-    stage('重新打包并推送到 github pages') {
+    stage('打包并推送到 github pages') {
       steps {
         sh './github.sh'
+      }
+    }
+    stage('重新打包给生产使用') {
+      steps {
+        sh 'yarn build'
       }
     }
   }
