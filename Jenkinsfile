@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('拉取代码') {
       steps {
-        git 'git@github.com:cjm0/blog.git'
+        git credentialsId: '1f6920be-426a-4ddb-a3d5-be8733fea79e', url: 'https://github.com/cjm0/blog.git'
       }
     }
     stage('配置环境') {
