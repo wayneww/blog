@@ -1,15 +1,11 @@
-
-
-# 先改配置文件的 base，然后执行命令提交到 github静态资源站点
-
-
 #!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
 set -e
 
 # 生成静态文件
-npm run build
+# 先改配置文件的 base，然后执行命令提交到 github静态资源站点
+npm run build -- pages
 
 # 进入生成的文件夹
 cd .vuepress/dist

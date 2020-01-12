@@ -13,10 +13,11 @@ let getIp = () => {
     }
 }
 
+const isGitPages = process.argv[process.argv.length - 1] === 'pages';
+
 module.exports = {
     // 基础配置
-    base: '/', // 部署站点的基础路径
-    // base: '/blog-github/', // 部署站点的基础路径
+    base: isGitPages ? '/blog-github/' : '/', // 部署站点的基础路径
     locales: { // 默认标题
         '/': {
             title: '前端一锅煮',
@@ -35,10 +36,10 @@ module.exports = {
     dest: '.vuepress/dist', // 指定 vuepress build 的输出目录
     ga: 'UA-109714208-2', // 提供一个 Google Analytics ID 来使 GA 生效
     serviceWorker: false, // pwa
-    
+
     // 主题配置
     // theme: 'undefined',
-    themeConfig: { 
+    themeConfig: {
         repo: 'https://github.com/cjm0/blog',
         editLinks: true,
         repoLabel: 'GitHub',
@@ -50,19 +51,19 @@ module.exports = {
                 lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
                 nav: [ // 顶部导航栏
                     {
-                        text: '首页', 
+                        text: '首页',
                         link: '/'
                     },
                     {
-                        text: '全部文章', 
+                        text: '全部文章',
                         link: '/page/list/'
                     },
                     {
-                        text: 'VuePress笔记', 
+                        text: 'VuePress笔记',
                         link: '/page/vuepress/'
                     },
                     {
-                        text: '关于我', 
+                        text: '关于我',
                         link: '/page/about/'
                     },
                 ],
@@ -78,7 +79,7 @@ function genSidebarConfig (title) {
     return [
         {
             title,
-            collapsable: false, 
+            collapsable: false,
             children: [
                 '',
                 'api',

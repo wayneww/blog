@@ -20,7 +20,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://gitee.com/cjm0/vuepress.git"
-  }, 
+  },
   "keywords": [
     "blog",
     "vuepress",
