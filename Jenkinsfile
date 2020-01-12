@@ -24,6 +24,7 @@ pipeline {
     }
     stage('打包并推送到 github pages') {
       steps {
+        sh 'chmod +x *.sh'
         sh './github.sh'
       }
     }
