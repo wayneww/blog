@@ -22,19 +22,16 @@ pipeline {
         sh 'yarn install'
       }
     }
-    stage('打包并推送到 github pages') {
+    // stage('打包并推送到 github pages') {
+    //   steps {
+    //     sh 'chmod +x *.sh'
+    //     sh './github.sh'
+    //   }
+    // }
+    stage('打包给生产使用') {
       steps {
-        script {
-            result = sh (script: "git --version", returnStatus: true)
-            echo "result: ${result}"
-        }
         sh 'chmod +x *.sh'
-        sh './github.sh'
-      }
-    }
-    stage('重新打包给生产使用') {
-      steps {
-        sh 'yarn build'
+        sh './git.sh'
       }
     }
   }

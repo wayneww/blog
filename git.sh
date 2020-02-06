@@ -3,6 +3,10 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 打包
+npm run build
+
+
 # 判断语句
 str=$1
 
@@ -17,7 +21,7 @@ git add -A
 git commit -am "$info"
 git push
 
-echo -e '\033[32m blog git push success... \033[0m'
+echo 'git push success...'
 
 
 
