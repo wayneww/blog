@@ -14,7 +14,7 @@ let getIp = () => {
 }
 
 const isGitPages = process.argv[process.argv.length - 1] === 'pages';
-console.log(isGitPages);
+
 module.exports = {
     // 基础配置
     base: isGitPages ? '/blog-github/' : '/', // 部署站点的基础路径
