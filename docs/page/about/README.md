@@ -9,13 +9,13 @@ meta:
     content: markdown,Vuepress,Vue,前端一锅煮
 ---
 
-# About 
+# About
 
 ## 关于网站
 
 ### 使用技术
 
-网站基于 [`Vuepress`](https://vuepress.vuejs.org/zh/) 框架，使用 `Markdown` 语法。  
+网站基于 [`Vuepress`](https://vuepress.vuejs.org/zh/) 框架，使用 `Markdown` 语法。
 
 使用 `Vuepress` 默认主题，未加多语言功能。
 
@@ -25,9 +25,9 @@ meta:
 
 ### 网站内容
 
-1. 记录学习前端过程中遇到的各种坑以及解决办法； 
+1. 记录学习前端过程中遇到的各种坑以及解决办法；
 
-2. 记录工具、插件、框架安装使用教程；  
+2. 记录工具、插件、框架安装使用教程；
 
 3. 记录收藏的常用代码片段、资源地址，看到的各种有趣文章；
 
@@ -46,12 +46,10 @@ meta:
 
 ## 联系我
 
-<span>+</span> 邮箱：<1293004002@qq.com>
+<span>+</span> GitHub：[cjm0](https://github.com/cjm0)
 
 <span>+</span> 知乎：[@前端一锅煮](https://www.zhihu.com/people/qian-duan-yiguo-zhu/activities)
 
 <span>+</span> SegmentFault：[@前端一锅煮](https://segmentfault.com/u/daqianduan)
-
-<span>+</span> 代码库：[码云](https://gitee.com/cjm0) [GitHub](https://github.com/cjm0)
 
 <span>+</span> 微信公众号 && QQ群：前端一锅煮

@@ -48,9 +48,8 @@ yarn && yarn dev
 
 - [SegmentFault](https://segmentfault.com/u/daqianduan)
 
-- [前端一锅煮](https://blog.bigqianduan.top)
-
 - 关注微信公众号：前端一锅煮
+
 - 加QQ群：前端一锅煮
 
 #### License
