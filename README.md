@@ -5,7 +5,7 @@
 
 > 转载请注明来源
 
-这是一个基于 VuePress 构建的用于前端学习、笔记记录、趣文推荐的个人网站。
+这是一个基于 VuePress 构建的用于大厂面试专题突破、大前端学习、基础健康学习的个人网站。
 
 定期分享大前端原创内容，助力突破大厂面试瓶颈~
 
@@ -35,7 +35,7 @@
 #### 快速开始
 
 ```bash
-git clone git@gitee.com:cjm0/vuepress.git
+git clone https://github.com/cjm0/blog.git
 
 cd blog
 
@@ -50,8 +50,8 @@ yarn && yarn dev
 
 - [前端一锅煮](https://blog.bigqianduan.top)
 
-- 微信公众号：前端一锅煮
-- QQ群：前端一锅煮
+- 关注微信公众号：前端一锅煮
+- 加QQ群：前端一锅煮
 
 #### License
 
