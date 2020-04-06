@@ -3,47 +3,55 @@
 
 #### 项目介绍
 
+> 转载请注明来源
+
 这是一个基于 VuePress 构建的用于前端学习、笔记记录、趣文推荐的个人网站。
 
-VuePress 基于 Markdown，支持 vue 写法，打包后生成静态页面。无需设计自带主题，主题简约美观、功能齐全。非常适合个人建站。此外，它还内置了以下优秀特性：
+定期分享大前端原创内容，助力突破大厂面试瓶颈~
 
-- 为技术文档而优化的[内置 Markdown 拓展](https://vuepress.vuejs.org/zh/guide/markdown.html)
-- [在 Markdown 文件中使用 Vue 组件的能力](https://vuepress.vuejs.org/zh/guide/using-vue.html)
-- [Vue 驱动的自定义主题系统](https://vuepress.vuejs.org/zh/guide/custom-themes.html)
-- [自动生成 Service Worker](https://vuepress.vuejs.org/zh/config/#serviceworker)
-- [Google Analytics 集成](https://vuepress.vuejs.org/zh/config/#ga)
-- [多语言支持](https://vuepress.vuejs.org/zh/guide/i18n.html)
-- 默认主题包含：
-  - 响应式布局
-  - [可选的主页](https://vuepress.vuejs.org/zh/default-theme-config/#%E9%A6%96%E9%A1%B5)
-  - [简洁的开箱即用的标题搜索](https://vuepress.vuejs.org/zh/default-theme-config/#%E5%86%85%E7%BD%AE%E6%90%9C%E7%B4%A2)
-  - [Algolia 搜索](https://vuepress.vuejs.org/zh/default-theme-config/#algolia-%E6%90%9C%E7%B4%A2)
-  - 可自定义的[导航栏](https://vuepress.vuejs.org/zh/default-theme-config/#%E5%AF%BC%E8%88%AA%E6%A0%8F)和[侧边栏](https://vuepress.vuejs.org/zh/default-theme-config/#%E4%BE%A7%E8%BE%B9%E6%A0%8F)
-  - [自动生成的 GitHub 链接和页面的编辑链接](https://vuepress.vuejs.org/zh/default-theme-config/#git-%E4%BB%93%E5%BA%93%E5%92%8C%E7%BC%96%E8%BE%91%E9%93%BE%E6%8E%A5)
+学习基础养生知识，保持持久身心健康~
 
 #### 博客地址
 
-[https://blog.bigqianduan.top](https://blog.bigqianduan.top)
+[http://blog.bigqianduan.top](http://blog.bigqianduan.top)
 
-#### 项目启动
+#### 文章列表
+
+- [挑战大厂第2篇-手动实现promise.all](https://github.com/cjm0/blog/blob/master/docs/page/list/promise_all.md)
+- [挑战大厂第1篇-树结构互转](https://github.com/cjm0/blog/blob/master/docs/page/list/three.md)
+- [前端标准规范-v1.0](https://github.com/cjm0/blog/blob/master/docs/page/list/fe.md)
+- [vscode 使用指南](https://github.com/cjm0/blog/blob/master/docs/page/list/vscode.md)
+- [js 拾遗](https://github.com/cjm0/blog/blob/master/docs/page/list/base_summary.md)
+- [听说你在找工作](https://github.com/cjm0/blog/blob/master/docs/page/list/need_work.md)
+- [JS 加法知多少？](https://github.com/cjm0/blog/blob/master/docs/page/list/add.md)
+- [v前端修炼之路](https://github.com/cjm0/blog/blob/master/docs/page/list/fe_up.md)
+- [npm cnpm npx nvm 傻傻分不清](https://github.com/cjm0/blog/blob/master/docs/page/list/npm.md)
+- [经典资源收藏](https://github.com/cjm0/blog/blob/master/docs/page/list/source_link.md)
+- [webpack4 一点通](https://github.com/cjm0/blog/blob/master/docs/page/list/webpack4.md)
+- [vue 无痕刷新](https://github.com/cjm0/blog/blob/master/docs/page/list/vue_reload.md)
+- [Vue ui 大法哪家强？](https://github.com/cjm0/blog/blob/master/docs/page/list/vue_ui_contrast.md)
+- [css 布局：两边固定中间自适应](https://github.com/cjm0/blog/blob/master/docs/page/list/css_layout_two.md)
+
+#### 快速开始
 
 ```bash
 git clone git@gitee.com:cjm0/vuepress.git
-cd blog 
+
+cd blog
+
 yarn && yarn dev
 ```
 
-#### 相关链接
+#### 关于我
 
 - [知乎](https://www.zhihu.com/people/qian-duan-yiguo-zhu/activities)
-
-- [简书](https://www.jianshu.com/u/1920de65b6bb)
 
 - [SegmentFault](https://segmentfault.com/u/daqianduan)
 
 - [前端一锅煮](https://blog.bigqianduan.top)
 
-- [VuePress](https://vuepress.vuejs.org/zh/)
+- 微信公众号：前端一锅煮
+- QQ群：前端一锅煮
 
 #### License
 

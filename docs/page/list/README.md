@@ -50,6 +50,16 @@ meta:
             return {
                 datas: [
                     {
+                        name: '挑战大厂第2篇-手动实现promise.all',
+                        url: '/page/list/promise_all.html',
+                        date: '2020-04-07',
+                    },
+                    {
+                        name: '挑战大厂第1篇-树结构互转',
+                        url: '/page/list/three.html',
+                        date: '2020-04-06',
+                    },
+                    {
                         name: '前端标准规范-v1.0',
                         url: '/page/list/fe.html',
                         date: '2019-11-19',
