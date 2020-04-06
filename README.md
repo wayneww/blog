@@ -11,6 +11,8 @@
 
 学习基础养生知识，保持持久身心健康~
 
+欢迎反馈交流，欢迎 star~
+
 #### 博客地址
 
 [http://blog.bigqianduan.top](http://blog.bigqianduan.top)
@@ -18,7 +20,7 @@
 #### 文章列表
 
 - [挑战大厂第2篇-手动实现promise.all](https://github.com/cjm0/blog/blob/master/docs/page/list/promise_all.md)
-- [挑战大厂第1篇-树结构互转](https://github.com/cjm0/blog/blob/master/docs/page/list/three.md)
+- [挑战大厂第1篇-js树结构互转](https://github.com/cjm0/blog/blob/master/docs/page/list/three.md)
 - [前端标准规范-v1.0](https://github.com/cjm0/blog/blob/master/docs/page/list/fe.md)
 - [vscode 使用指南](https://github.com/cjm0/blog/blob/master/docs/page/list/vscode.md)
 - [js 拾遗](https://github.com/cjm0/blog/blob/master/docs/page/list/base_summary.md)
@@ -44,9 +46,9 @@ yarn && yarn dev
 
 #### 关于我
 
-- [知乎](https://www.zhihu.com/people/qian-duan-yiguo-zhu/activities)
+- [知乎-前端一锅煮](https://www.zhihu.com/people/qian-duan-yiguo-zhu/activities)
 
-- [SegmentFault](https://segmentfault.com/u/daqianduan)
+- [SegmentFault-前端一锅煮](https://segmentfault.com/u/daqianduan)
 
 - 关注微信公众号：前端一锅煮
 
