@@ -3,9 +3,9 @@ lang: zh-CN
 sidebar: auto
 meta:
   - name: description
-    content: 挑战大厂第1篇-树结构互转
+    content: 挑战大厂第1篇-js树结构互转
   - name: keywords
-    content: 前端一锅煮,挑战大厂第1篇-树结构互转
+    content: 前端一锅煮,挑战大厂第1篇-js树结构互转
 ---
 
 # 挑战大厂第1篇-js树结构互转

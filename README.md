@@ -19,8 +19,10 @@
 
 #### 文章列表
 
-- [挑战大厂第2篇-手动实现promise.all](https://github.com/cjm0/blog/blob/master/docs/page/list/promise_all.md)
-- [挑战大厂第1篇-js树结构互转](https://github.com/cjm0/blog/blob/master/docs/page/list/three.md)
+- [挑战大厂第3篇-new、call、create等常见函数的内部实现](https://github.com/cjm0/blog/blob/master/docs/page/challenge/fn.md)
+- [挑战大厂第2篇-手动实现promise.all](https://github.com/cjm0/blog/blob/master/docs/page/challenge/promise_all.md)
+- [挑战大厂第1篇-js树结构互转](https://github.com/cjm0/blog/blob/master/docs/page/challenge/three.md)
+
 - [前端标准规范-v1.0](https://github.com/cjm0/blog/blob/master/docs/page/list/fe.md)
 - [vscode 使用指南](https://github.com/cjm0/blog/blob/master/docs/page/list/vscode.md)
 - [js 拾遗](https://github.com/cjm0/blog/blob/master/docs/page/list/base_summary.md)

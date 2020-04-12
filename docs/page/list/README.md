@@ -50,13 +50,18 @@ meta:
             return {
                 datas: [
                     {
+                        name: '挑战大厂第3篇-new、call、create等常见函数的内部实现',
+                        url: '/page/challenge/fn.html',
+                        date: '2020-04-08',
+                    },
+                    {
                         name: '挑战大厂第2篇-手动实现promise.all',
-                        url: '/page/list/promise_all.html',
+                        url: '/page/challenge/promise_all.html',
                         date: '2020-04-07',
                     },
                     {
-                        name: '挑战大厂第1篇-树结构互转',
-                        url: '/page/list/three.html',
+                        name: '挑战大厂第1篇-js树结构互转',
+                        url: '/page/challenge/three.html',
                         date: '2020-04-06',
                     },
                     {
