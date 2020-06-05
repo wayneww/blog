@@ -7,6 +7,8 @@ actionLink: /page/list/
 pageClass: page_index
 footer: 京ICP备18039352号 | ©2018-present 前端一锅煮
 meta:
+  - name: baidu-site-verification
+    content: tmt5cxB47v
   - name: keywords
     content: 前端一锅煮,前端学习,前端笔记
 ---
@@ -69,7 +71,7 @@ meta:
                 font-size: 1rem;
             }
         }
-        
+
         @media (max-width: 419px) {
             .home{
                 .hero{
@@ -100,7 +102,7 @@ meta:
     export default {
         data() {
             return {
-                
+
             }
         },
         mounted() {
